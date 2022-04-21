@@ -53,7 +53,7 @@
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
             .cajon-b.color-primario.p-4
-              p.mb-0 En este sentido se espera que en las próximas semanas usted haga un  acercamiento alas  normas de bioseguridad acorde con los lineamientos gubernamentales e institucionales que tienen como propósito controlar las infecciones y tomar las precauciones universales en el manejo de los cuerpos y los equipos que son utilizados en este procedimiento. Bienvenido.
+              p.mb-0 En este sentido se espera que en las próximas semanas usted haga un  acercamiento a las  normas de bioseguridad acorde con los lineamientos gubernamentales e institucionales que tienen como propósito controlar las infecciones y tomar las precauciones universales en el manejo de los cuerpos y los equipos que son utilizados en este procedimiento. Bienvenido.
 
           .col-md-4
             figure

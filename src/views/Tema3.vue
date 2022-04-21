@@ -32,10 +32,10 @@
       .col-lg-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/t4/f3.png' alt='Proceso de descomposición')
-    p Definida la bioquímica, es necesario que entienda una sustancia química como los elementos y compuestos químicos y sus mezclas, ya sean naturales o sintéticas, tales como los obtenidos a través de los procesos de producción
-      b.cp (Convenio de la Organización Internacional del Trabajo, 1990).
-      b Los químicos se dividen en dos grupos,
-      b.cp el primer grupo son los productos químicos orgánicos,
+    p Definida la bioquímica, es necesario que entienda una sustancia química como los elementos y compuestos químicos y sus mezclas, ya sean naturales o sintéticas, tales como los obtenidos a través de los procesos de producción 
+      b.cp (Convenio de la Organización Internacional del Trabajo, 1990). 
+      b Los químicos se dividen en dos grupos, 
+      b.cp el primer grupo son los productos químicos orgánicos, 
       b que son aquellos que contienen carbono, por ejemplo, el alcohol, etanol, acetatos, aminas, nitrilos, sulfatos, ésteres y fosfatos.
     .row.align-items-center.mb-4
       .col-lg-4
@@ -43,11 +43,11 @@
           img(src='@/assets/curso/t4/f4.svg' alt='Productos químicos inorgánicos')
       .col-lg-8
         p
-          b.cp El segundo grupo son los productos químicos inorgánicos,
-          b que hacen referencia a todos los demás elementos de la tabla periódica y sus compuestos, por ejemplo, el ácido sulfúrico y el amoniaco.
-          | Estas sustancias químicas peligrosas
-          b.cac representan riesgos para el personal que las maneja, en este caso el tanatopractor.
-          b Las principales características de las sustancias químicas peligrosas son: su toxicidad, inflamabilidad y explosividad, reactividad violenta y radioactividad,
+          b.cp El segundo grupo son los productos químicos inorgánicos, 
+          b que hacen referencia a todos los demás elementos de la tabla periódica y sus compuestos, por ejemplo, el ácido sulfúrico y el amoniaco. 
+          | Estas sustancias químicas peligrosas 
+          b.cac representan riesgos para el personal que las maneja, en este caso el tanatopractor. 
+          b Las principales características de las sustancias químicas peligrosas son: su toxicidad, inflamabilidad y explosividad, reactividad violenta y radioactividad, 
           | y el grado de riesgo depende de factores como:
         ol.lista-ol--cuadro.lista-ol--separador
                   li

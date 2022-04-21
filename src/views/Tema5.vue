@@ -12,9 +12,9 @@
       .col-lg-8.mb-4
         p.mb-4 Es el lugar más sagrado de la funeraria, porque allí se dan los últimos cuidados físicos de las personas fallecidas que las familias han puesto en su custodia. Este espacio arquitectónico está dotado con equipos, instalaciones e insumos especializados para iniciar y finalizar un proceso de preservación del cuerpo de un fallecido.
         .cajon.color-secundario.p-4.mb-0
-          p.mb-0 El
-            b laboratorio de tanatopraxia es un área restringida de la funeraria,
-            b-none  solo está permitido el acceso a este espacio arquitectónico al personal autorizado y avalado, según lineamientos técnicos y sanitarios, es decir, el laboratorio, también llamado sala de embalsamamiento,
+          p.mb-0 El 
+            b laboratorio de tanatopraxia es un área restringida de la funeraria, 
+            b-none  solo está permitido el acceso a este espacio arquitectónico al personal autorizado y avalado, según lineamientos técnicos y sanitarios, es decir, el laboratorio, también llamado sala de embalsamamiento, 
             b está amueblado con equipos especializados, que están sujetos a verificación y uso de los tanatopráctores y personal autorizado de la funeraria.
       .col-lg-4.mb-4.align-self-center
         figure

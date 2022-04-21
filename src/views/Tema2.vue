@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Descomposición en la tanatopraxia
+      h1 Descomposición en la tanatopraxia - Tanatoestética
 
     p.mb-5 Como se ha mencionado, <b>la muerte es la ruptura del equilibrio biológico y fisicoquímico de un cuerpo.</b> Cuando el cuerpo yace inerte llegan reacciones que poco a poco conducen a su descomposición, <b><span class="cp">que en el contexto de la tanatopraxia,</span> hace referencia a un cambio biológico y fisicoquímico de las estructuras corporales.</b> Este fenómeno también se le conoce como <em><b><span class="cac">post-mortem</span></b></em>; cabe mencionar que un cuerpo presenta síntomas de descomposición, la muerte es innegable. <b>La descomposición como desestructuración corporal tiene dos perspectivas,</b> estas son:
 
@@ -37,7 +37,7 @@
           p Cuando cesa la actividad en el cuerpo humano comienza la descomposición generalizada de los azúcares y de algunos carbohidratos.  A este acontecimiento se le llama sacarólisis.
       .row.align-items-center
         .col
-          p Tiempo después del fallecimiento de una persona comienza la presencia de bacterias aeróbicas, es decir, de microrganismos que necesitan de oxigeno, a lo que se le llama fermentación.
+          p Tiempo después del fallecimiento de una persona comienza la presencia de bacterias aeróbicas, es decir, de microorganismos que necesitan de oxígeno, a lo que se le llama fermentación.
         .col-lg-2.col-md-3.order-first.order-lg-last
           figure
             img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada').mw155px

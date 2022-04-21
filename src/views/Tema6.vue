@@ -27,10 +27,12 @@
       .col-lg-7.mb-4
         p.mb-4 Como precaución estándar desde el área administrativa a nivel empresarial, se deben tener capacitaciones de salud ocupacional por agencias de riesgos profesionales ARL; también se recomienda tener a disposición de todo el personal los manuales e instructivos que facilitan la consulta continua de cómo actuar o proceder en casos de accidentes en las áreas de riesgo biológico específicos de cada empresa, a los que acceden desde personal de traslado y embalsamamiento, como el personal de salas de transición en hospitales y morgues, hasta el personal de limpieza o, en general, cualquier persona que entre en contacto directo o indirecto con cadáveres.
 
-    p.mb-5 En Colombia, rigen actualmente varias normas sobre bioseguridad y cuidado en el trabajo, entre ellas están:
-    .row.justify-content-center.mb-5
+    p En Colombia, rigen actualmente varias normas sobre bioseguridad y cuidado en el trabajo, entre ellas están:
+    .row.justify-content-center.mb-2
       .col-lg-11
-        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+        LineaTiempoE.color-secundario(:datos="datosLineaTiempoE")
+    .cajon.color-secundario.p-4.mb-4
+      p.mb-0 #[strong Nota:] Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso de Tipos de Carga, para que el sistema lo direccione al espacio correcto.
 
 
     p.mb-5 Todas estas normas aportan lineamientos y recomendaciones a seguir desde las premisas universales de bioseguridad en toda la cadena del sector funerario, que incluye funerarias, salas de velación, cementerios y morgues. Estas normativas dan la base necesaria para que el personal tome las medidas preventivas necesarias en la manipulación de los cadáveres, teniendo como premisa inicial las precauciones universales cuando se trata de exposición a material biológico. Además, cada entidad funeraria debe contar con su propio manual institucional, en el que se detallen los procesos de salud ocupacional.
@@ -49,7 +51,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo. Guía para trabajadores expuestos<br> a riesgos biológico
+                  p Anexo. Guía para trabajadores expuestos<br> a riesgos biológicos
 
     p.mb-5 Hasta aquí se han presentado algunas aproximaciones a normas de bioseguridad enfocadas en el sector funerario. Cabe recordar que, además de lo mencionado, en las zonas operativas de la funeraria, no se debe fumar, ingerir o ingresar alimentos. En caso tal de presentar alguna cortada o lesión dérmica, se sugiere vendar o tapar la zona, porque se está expuesto a algún contagio con microorganismos. Estos incidentes y otros riesgos se deben disminuir mediante el uso de elementos de protección. Pero, #[strong ¿qué es un elemento de protección?] Para resolver esta inquietud, está invitado a continuar la lectura.
     .row.justify-content-center.mb-4
@@ -294,33 +296,58 @@
 </template>
 
 <script>
+import LineaTiempoE from '../components/LineaTiempoE' // borrar una vez el componente "Muestras" no se necesite
+
 export default {
   name: 'Tema6',
+  components: {
+    LineaTiempoE, // borrar una vez el componente "Muestras" no se necesite
+  },
   data: () => ({
-    datosLineaTiempoB: [
+    datosLineaTiempoE: [
       {
-        titulo: 'Ley 9 de 1979 ',
+        titulo: 'Ley 9 de 1979',
         texto:
-          'Esta Ley  expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulta este enlace:<br><br><a class="anexo mb-4" href="./downloads/LEY-0009-DE-1979.pdf" target="_blank"><div class="anexo__icono"><img src="./img/icono-pdf.svg" /></div><div class="anexo__texto"><p>Anexo. LEY 9 DE 1979 (enero 24) Diario Oficial No. 35308, del 16 de julio de 1979</p></div></a>',
+          'Esta Ley  expone las normas sanitarias para prevención y control de riesgos biológicos, físicos o químicos que alterarían el entorno humano. Para más información consulta este enlace:',
         icono: require('@/assets/curso/t6/icon1.svg'),
+        iconlink: require('@/assets/curso/t6/icon-pdf.svg'),
+        textlink:
+          'Anexo. LEY 9 DE 1979 (enero 24) Diario Oficial No. 35308, del 16 de julio de 1979',
+        link: '/downloads/LEY-0009-DE-1979.pdf',
+        descarga: true,
       },
       {
         titulo: 'Ley 1562 de 2012',
         texto:
-          'Por la cual se modifica el sistema de riesgos laborales en materia de salud ocupacional. Esta ley moderniza el sistema de riesgos personales.  Para más información consulta este enlace:<br><br><a class="anexo mb-4" href="./downloads/Ley-1562-de-2012.pdf" target="_blank"><div class="anexo__icono"><img src="./img/icono-pdf.svg" /></div><div class="anexo__texto"><p>Anexo. Anexo. LEY 1562 de 2012 Sistema general de riesgos laborales</p></div></a>',
+          'Por la cual se modifica el sistema de riesgos laborales en materia de salud ocupacional. Esta ley moderniza el sistema de riesgos personales. Para más información consulta este enlace:',
         icono: require('@/assets/curso/t6/icon2.svg'),
+        iconlink: require('@/assets/curso/t6/icon-pdf.svg'),
+        textlink:
+          'Anexo. Anexo. LEY 1562 de 2012 Sistema general de riesgos laborales',
+        link: '/downloads/Ley-1562-de-2012.pdf',
+        descarga: true,
       },
       {
         titulo: 'Norma Técnica Colombiana NTC 5840',
         texto:
-          'Esta Norma establece los requisitos necesarios para la prestación de los servicios funerarios. Para más información consulta el siguiente enlace:<br><br><div class="row"><div class="col-12"> <a class="anexo mb-4 mb-lg-0" href="https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=AF60935720F13C6466C0297B7F80FF16&Req=" target="_blank"><div class="anexo__icono"><img src="./img/icono-link.svg" /></div><div class="anexo__texto"><p>Enlace web. Norma Técnica Colombiana NTC 5840</p></div></a></div></div>',
+          'Esta Norma establece los requisitos necesarios para la prestación de los servicios funerarios. Para más información consulta el siguiente enlace:',
         icono: require('@/assets/curso/t6/icon3.svg'),
+        iconlink: require('@/assets/curso/t6/icon-link.svg'),
+        textlink: 'Enlace web. Norma Técnica Colombiana NTC 5840',
+        link:
+          'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=AF60935720F13C6466C0297B7F80FF16&Req=',
+        descarga: false,
       },
       {
         titulo: 'Norma Técnica Colombiana NTC 6212',
         texto:
-          'Esta Norma define los términos utilizados en la prestación de servicios funerarios. Para más información, consulta el siguiente enlace:<br><br><div class="row"><div class="col-12"> <a class="anexo mb-4 mb-lg-0" href="https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=6002A697B3F03F6282B108144F0748A3&Req=" target="_blank"><div class="anexo__icono"><img src="./img/icono-link.svg" /></div><div class="anexo__texto"><p>Enlace web. Norma Técnica Colombiana NTC 6212</p></div></a></div></div>',
+          'Esta Norma define los términos utilizados en la prestación de servicios funerarios. Para más información, consulta el siguiente enlace:',
         icono: require('@/assets/curso/t6/icon4.svg'),
+        iconlink: require('@/assets/curso/t6/icon-link.svg'),
+        textlink: 'Enlace web. Norma Técnica Colombiana NTC 6212',
+        link:
+          'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=6002A697B3F03F6282B108144F0748A3&Req=',
+        descarga: false,
       },
     ],
   }),

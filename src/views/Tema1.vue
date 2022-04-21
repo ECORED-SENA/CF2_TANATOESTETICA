@@ -17,9 +17,9 @@
         img(src='@/assets/curso/t1/bg4f1.png' alt='Símbolo de atención').mb-4.onlyMobile
       .col-lg-7
         p.bordeLnegro.mb-0
-          b.cac Los fenómenos agonales
-          | son cambios que ocurren en el cuerpo de la persona
-          b durante el proceso del fallecimiento gracias a la disminución metabólica,
+          b.cac Los fenómenos agonales 
+          | son cambios que ocurren en el cuerpo de la persona 
+          b durante el proceso del fallecimiento gracias a la disminución metabólica, 
           | estos cambios ocurren sobre todo en personas que llevan padeciendo alguna enfermedad o por proceso natural del envejecimiento.
       .col
 
@@ -130,7 +130,7 @@
         h2 <span class="fnegro texto-blanco px-1">QUÍMICO</span>
         P Son cambios químicos que cambian las estructuras del cuerpo y lo modifican.
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          div(titulo="Coloración <em>postmortem</em>")
+          div(titulo="Caloricidad <em>postmortem</em>")
             p Esto sucede cuando algunas células, luego del fallecimiento, poseen reservas de oxígeno dentro de ellas y genera que algunas funciones del metabolismo reguladoras de la temperatura continúen, es allí que se produce la caloricidad.
           div(titulo="<em>Rigor mortis</em>")
             p Es un proceso de contractura muscular gradual que varía en las personas fallecidas. Esta comienza entre las 3 o 6 horas luego del fallecimiento. Es necesario romper esta rigidez antes de iniciar con el proceso de embalsamamiento con masajes y movimientos de rotación y flexión de las extremidades para ayudar a que la inyección de químico preservante y el drenaje de la sangre sea óptima, además que permite posicionar el cuerpo en un estado natural.
