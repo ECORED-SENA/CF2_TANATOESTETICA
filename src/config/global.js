@@ -161,7 +161,7 @@ export default {
       referencia:
         'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
       link:
-        'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
+        'https://www.arlsura.com/pag_serlinea/distribuidores/doc/documentacion/cartilla_control_riesgo_biologico.pdf',
     },
   ],
   glosario: [
@@ -211,9 +211,8 @@ export default {
     {
       texto:
         'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
-      tipo: 'Texto digital',
-      link:
-        'https://www.minambiente.gov.co/images/Atencion_y_particpacion_al_ciudadano/Consulta_Publica/V_22_Manual_Gesti%C3%B3n_Integral_16_12_14_CP.pdf',
+      tipo: 'PDF',
+      descarga: '/downloads/V_22_Manual_Gestion_Integral_16_12_14_CP.pdf',
     },
   ],
   creditos: {

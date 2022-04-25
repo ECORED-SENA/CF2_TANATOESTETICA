@@ -37,7 +37,7 @@
 
     p.mb-5 Todas estas normas aportan lineamientos y recomendaciones a seguir desde las premisas universales de bioseguridad en toda la cadena del sector funerario, que incluye funerarias, salas de velación, cementerios y morgues. Estas normativas dan la base necesaria para que el personal tome las medidas preventivas necesarias en la manipulación de los cadáveres, teniendo como premisa inicial las precauciones universales cuando se trata de exposición a material biológico. Además, cada entidad funeraria debe contar con su propio manual institucional, en el que se detallen los procesos de salud ocupacional.
 
-    .bloque-texto-a.reverse.color-primario.p-4.p-md-4.mb-5
+    .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0.align-self-center
           figure
@@ -45,9 +45,9 @@
         .col-lg-9
           .bloque-texto-a__texto.p-5
             p Apreciado aprendiz, el Ministerio de Trabajo de Colombia ha desarrollado una #[strong “Guía para trabajadores expuestos a riesgos biológicos” (2018).] Está invitado a identificar las herramientas y recomendaciones sugeridas en los entornos laborales que presentan alta exposición a riesgo biológico. Haga clic en el presente ícono para ir al texto.
-          .row.contenedorLink
+          .row.contenedorLink.mt-2
             .col-auto
-              a.anexo.mb-4(:href="obtenerLink('/downloads/guia-riesgo-biologico-trabajadores.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/GuiaTrabajdoresExpuestosaRiesgoBiologico.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
