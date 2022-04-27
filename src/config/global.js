@@ -129,7 +129,7 @@ export default {
     },
     {
       referencia:
-        'ICONTEC. (2017). Servicios funerarios. Requisitos (NTC 5840). <i>Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso para que el sistema lo direccione al espacio correcto.</i>',
+        'ICONTEC. (2017). Servicios funerarios. Requisitos (NTC 5840). <i>Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso, para que el sistema lo direccione al espacio correcto.</i>',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=AF60935720F13C6466C0297B7F80FF16&Req=',
     },
