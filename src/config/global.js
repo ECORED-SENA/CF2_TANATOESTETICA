@@ -113,12 +113,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Legiscomex. (s.f.). Tipos de carga, regularizado. <br> <small>Apreciado Aprendiz, para la utilización del recurso de Legiscomex que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso de Tipos de Carga, para que el sistema lo direccione al espacio correcto. </small>',
-      link:
-        'https://login.bdigital.sena.edu.co/login?url=https://www.legiscomex.com/Documentos/TIPOSDECARGA',
-    },
-    {
-      referencia:
         'De la Cruz, D. y Holmes, R. (2018). Turning art into science. Tuesday Evening Publications.',
     },
     {
@@ -135,13 +129,13 @@ export default {
     },
     {
       referencia:
-        'ICONTEC. (2017). Servicios funerarios. Requisitos (NTC 5840).',
+        'ICONTEC. (2017). Servicios funerarios. Requisitos (NTC 5840). <i>Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso para que el sistema lo direccione al espacio correcto.</i>',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=AF60935720F13C6466C0297B7F80FF16&Req=',
     },
     {
       referencia:
-        'ICONTEC. (2017). Servicios funerarios. Términos y definiciones (NTC 6212).',
+        'ICONTEC. (2017). Servicios funerarios. Términos y definiciones (NTC 6212). <i>Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso, para que el sistema lo direccione al espacio correcto.</i>',
       link:
         'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=6002A697B3F03F6282B108144F0748A3&Req=',
     },
@@ -159,7 +153,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
+        'SURATEP. (s.f.). <i>Anexos – Modelo para el control del riesgo biológico.</i>',
       link:
         'https://www.arlsura.com/pag_serlinea/distribuidores/doc/documentacion/cartilla_control_riesgo_biologico.pdf',
     },
@@ -210,9 +204,10 @@ export default {
     },
     {
       texto:
-        'Ministerio de Salud y Protección Social, Ministerio de Ambiente y Desarrollo Sostenible y Ministerio de Transporte. (2015). Proyecto de manual para la gestión integral de residuos generados en la atención de salud y otras actividades.',
+        'SURATEP. (s.f.). <i>Anexos – Modelo para el control del riesgo biológico.</i>',
       tipo: 'PDF',
-      descarga: '/downloads/V_22_Manual_Gestion_Integral_16_12_14_CP.pdf',
+      link:
+        'https://www.arlsura.com/pag_serlinea/distribuidores/doc/documentacion/cartilla_control_riesgo_biologico.pdf',
     },
   ],
   creditos: {

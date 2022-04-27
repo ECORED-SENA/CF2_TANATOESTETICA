@@ -89,7 +89,7 @@
                   li
                     .lista-ol--cuadro__vineta.fcp
                       span 2
-                    | El amoniaco y sus derivados es una amina y tiende a enlazarse con el formaldehído, haciéndo perder su efectividad, por lo cual se incrementará la demanda de solución preservante en el cuerpo.
+                    | El amoniaco y sus derivados es una amina y tiende a enlazarse con el formaldehído, haciendo perder su efectividad, por lo cual se incrementará la demanda de solución preservante en el cuerpo.
                   li
                     .lista-ol--cuadro__vineta.fcp
                       span 3

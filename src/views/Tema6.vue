@@ -32,7 +32,7 @@
       .col-lg-11
         LineaTiempoE.color-secundario(:datos="datosLineaTiempoE")
     .cajon.color-secundario.p-4.mb-4
-      p.mb-0 #[strong Nota:] Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso de Tipos de Carga, para que el sistema lo direccione al espacio correcto.
+      p.mb-0 #[strong Nota:] Apreciado Aprendiz, para la utilización del recurso de ICONTEC que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso, para que el sistema lo direccione al espacio correcto.
 
 
     p.mb-5 Todas estas normas aportan lineamientos y recomendaciones a seguir desde las premisas universales de bioseguridad en toda la cadena del sector funerario, que incluye funerarias, salas de velación, cementerios y morgues. Estas normativas dan la base necesaria para que el personal tome las medidas preventivas necesarias en la manipulación de los cadáveres, teniendo como premisa inicial las precauciones universales cuando se trata de exposición a material biológico. Además, cada entidad funeraria debe contar con su propio manual institucional, en el que se detallen los procesos de salud ocupacional.
